@@ -62,7 +62,7 @@ void writeSortedMemInfo(const std::vector<MemInfo>& entries, const std::string& 
 }
 
 int main() {
-    std::string inputFilename = "d:\\programming\\MVS\\test\\rotek\\meminfo.txt";
+    std::string inputFilename = "/proc/meminfo";
     std::string outputFilename = "result_meminfo.txt";
 
     std::vector<MemInfo> entries = parseMemInfo(inputFilename);
